@@ -1,8 +1,6 @@
 ---
 
-### Konstantin Vladimirov
-
-C Practice Course
+### C Practice Course by Konstantin Vladimirov
 
 Exercises
 
