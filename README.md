@@ -1,6 +1,6 @@
 ---
 
-### C Practice Course by Konstantin Vladimirov
+### C Language Practice by Konstantin Vladimirov
 
 Exercises
 
