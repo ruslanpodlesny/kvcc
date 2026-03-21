@@ -27,7 +27,7 @@ int gcd(int a, int b) {
 		return b;
 	}
 	else {
-		if (r < 0) r += abs(b); // check logic behind this
+		if (r < 0) r += abs(b); // check the logic behind this
 		gcd(b, r);
 	}
 		
@@ -36,10 +36,11 @@ int gcd(int a, int b) {
 
 int main(void) {
 
-	int a, b;
+	int a, b, res;
 
 	read_values(&a, &b);
-	printf("gcd = %d\n", gcd(a, b));
+	res = gcd(a,b);
+	printf("gcd = %d\n", res);
 	
 	return 0;
 }
