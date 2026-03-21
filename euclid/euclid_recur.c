@@ -7,7 +7,7 @@ int abs(int a) {
 
 void read_values(int* pa, int* pb) {
 	printf("enter a and b: ");
-	int scanf_res = scanf_s("%d%d", pa, pb);	
+	int scanf_res = scanf("%d%d", pa, pb);	
 	if (scanf_res != 2) {
 		printf("invalid input!\n");
 		abort();
